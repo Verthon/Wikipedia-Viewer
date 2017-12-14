@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-basis: 100vh;
+    height: 100vh;
+    background-color: #2F3F78;
+    color: #eee; 
+    font-family: 'Raleway';
+}
+.app-content{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+}
+.heading a{
+    color: #eee;
+    font-size: 18px;
+    text-decoration: none;
+}
+.fa-search{
+    cursor: pointer;
+}
+.article-list{
+    margin: 0;
+}
+.single-article{
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    text-align: left;
+}
+.single-article a{
+    color: #222;
+    text-decoration: none;
+}
+.wiki-article{
+    background-color: #ddd;
+    padding: 20px;
+}
+.wiki-article:hover{
+    border-left: 5px solid #da773e;
+}
